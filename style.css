@@ -228,3 +228,95 @@ header {
   background-color: white;
   cursor: text;
 }
+
+/* コンテンツ */
+.top-wrapper {
+  height: 780px;
+}
+
+.top-wrapper p {
+  padding-top: 92px;
+  font-size: 27px;
+  color: #777;
+}
+
+/* メインラッパー */
+.main-wrapper {
+  height: 1440px;
+}
+
+.main-wrapper .container {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 150px;
+}
+
+.date {
+  float: left;
+  margin-right: 220px;
+  color: #999;
+  font-size: 16.8px;
+  padding-top: 10px;
+  opacity: 0.5;
+}
+
+.date:hover {
+  opacity: 1;
+}
+
+.text-heading a:hover {
+  color: #c49029;
+}
+
+.textarea {
+  width: 700px;
+  display: inline-block;
+}
+
+.text-heading {
+  font-size: 22.4px;
+  color: #111;
+  padding-bottom: 20px;
+}
+
+.text {
+  font-size: 16.884px;
+  color: #666;
+}
+
+.text-box {
+  padding-bottom: 60px;
+}
+
+.page-list {
+  font-size: 0;
+}
+
+.page-list li {
+  display: inline-block;
+  font-size: 16.884px;
+  color: #333;
+  border: solid 1px #ccc;
+  margin-right: 6px;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.page-list li a {
+  display: block;
+  padding: 8px 18px;
+  background-color: #c49029;
+}
+
+.page-list li:hover {
+  opacity: 1;
+}
+
+.page-list .this {
+  background-color: #eee;
+  color: #333;
+  opacity: 1;
+}
+
+.page-list {
+  text-align: center;
+}
